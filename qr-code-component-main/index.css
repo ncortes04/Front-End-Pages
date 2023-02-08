@@ -1,0 +1,50 @@
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%)
+}
+
+body {
+    background-color: var(--Lightgray);
+}
+.container{
+    width: 100vw;
+    height: 100vw;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--White);
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+.main1 {
+    width: 90%;
+    font-weight: 700;
+}
+.main2 {
+    width: 90%;
+    color: var(--Grayishblue);
+    font-weight: 400;
+}
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.card img {
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+}
